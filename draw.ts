@@ -252,7 +252,7 @@ export const HEROES: Hero[] = [
   { n: 8, head: 'KENYA FREES LAST EBOLA PATIENT; DRC TOLL TOPS 5,300', badge: 'CONFIRMED', src: 'G', lon: 15.3, lat: -4.3, tint: 0xdff0e2ff },
   { n: 9, head: 'POLICE FREE 20 HOSTAGES AFTER 17-HOUR SUPERMARKET SIEGE', badge: 'CONFIRMED', src: 'J', lon: -75.5, lat: 10.4, tint: 0xe3eef6ff },
   { n: 10, head: 'CLOSE-UPS REVEAL CRATER ON ASTEROID HIT TO SAVE EARTH', badge: 'REPORTED', src: 'J', lon: 8.65, lat: 49.87, tint: 0xe8e8ecff },
-  { n: 11, head: 'THANKSGIVING IN US AS NASDAQ SLIDES ON AI ROUT', badge: 'REPORTED', src: 'J', lon: -74, lat: 40.7, tint: 0xf2dfdfFF },
+  { n: 11, head: 'THANKSGIVING IN US AS NASDAQ SLIDES ON AI ROUT', badge: 'REPORTED', src: 'J', lon: -74, lat: 40.7, tint: 0xf2dfdfff },
   { n: 12, head: '1,220 PLAYERS REGISTER FOR IPL 2027 AUCTION', badge: 'REPORTED', src: 'S', lon: 74.1, lat: 15.3, tint: 0xe4f0dfff },
   { n: 13, head: 'HASINA SEEKS RETURN TO BANGLADESH ON 16 DECEMBER', badge: 'REPORTED', src: 'S', lon: 90.4, lat: 23.8, tint: 0xf0e3e8ff },
 ];
@@ -454,7 +454,7 @@ export function renderFrontPage(): Buffer {
     cv.outline(x, y, colW, rowH, RULE, 1);
     cv.text('HOW TO READ THIS PAGE', x + 10, y + 7, 1, RED);
     const n1 = 'EVERY STORY ABOVE WAS FIRST REPORTED ON THURSDAY 26 NOVEMBER 2026.';
-    const n2 = 'SCENES ARE ORIGINAL DRAWINGS - NO PHOTOGRAPHS. PINS ON THE MAP MATCH THE NUMBERS.';
+    const n2 = 'SCENES ARE ORIGINAL DRAWINGS - NO PHOTOGRAPHS. PINS MATCH THE NUMBERS.';
     cv.text(n1, x + 10, y + 21, 1, INK);
     cv.text(n2, x + 10, y + 33, 1, INK);
   }
